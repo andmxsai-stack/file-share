@@ -1,0 +1,14 @@
+{
+  "name": "filedrop",
+  "version": "1.0.0",
+  "description": "Upload a file, get a link, download it on any device.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "multer": "^2.0.2",
+    "qrcode": "^1.5.4"
+  }
+}
